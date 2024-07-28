@@ -813,11 +813,11 @@ header.header-s2 #mainmenu>li {
 }
 */
 
-header.smaller #mainmenu>li::before{
+/* header.smaller #mainmenu>li::before{
   transform: scale(0);
-}
+} */
 
-
+/* 
 #mainmenu>li::before {
   content: counter(my-awesome-counter) ' —';
   right: 8px;
@@ -830,7 +830,7 @@ header.smaller #mainmenu>li::before{
 
 header.smaller #mainmenu>li::before{
   transform: scale(0);
-}
+} */
 
 #mainmenu>li.has-child:after {
   font-family: FontAwesome;
@@ -1093,7 +1093,7 @@ header.header-light #mainmenu a {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border: solid 1px #dddddd;
+  border: solid 1px #cc0e0e;
 }
 
 .dark-scheme #mainmenu>li ul.mega .sb-menu {
@@ -1246,7 +1246,7 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
   padding: 4px;
   text-align: center;
   cursor: poInter;
-  color: #fff;
+  color: #ffffff;
   margin-top: 0px;
   margin-left: 20px;
 }
